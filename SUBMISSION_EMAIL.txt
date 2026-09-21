@@ -1,0 +1,103 @@
+================================================================================
+ASSESSMENT SUBMISSION EMAIL
+================================================================================
+
+TO:          RajathKumar@dotmappers.in
+CC:          (Optional - your personal email)
+SUBJECT:     [AI Engineer Assessment] — Evidence-Grounded AI Research Assistant
+
+================================================================================
+EMAIL BODY
+================================================================================
+
+Dear Rajath Kumar,
+
+I am writing to submit my completed assessment for the Senior AI Engineer position at DotMappers IT Pvt. Ltd.
+
+**Assessment Selection:** Assessment B - Evidence-Grounded AI Research Assistant (RAG)
+
+**Project Overview:**
+I have developed a production-grade Retrieval-Augmented Generation (RAG) system that demonstrates expertise in information retrieval, security, and comprehensive evaluation. The system features:
+
+• **Hybrid Search Architecture**: Combines semantic search (ChromaDB) with BM25 keyword matching and cross-encoder reranking for optimal retrieval quality
+• **Grounded Answer Generation**: Google Gemini API with strict grounding prompts ensuring all answers are supported by retrieved evidence
+• **Security Implementation**: Multi-layer prompt injection detection and defense with real-world security testing
+• **Comprehensive Evaluation**: Hit rate, citation correctness, groundedness (ROUGE-L), and refusal accuracy metrics
+• **Full-Stack Deployment**: Docker containerization (backend FastAPI + frontend React/Nginx) for zero-setup deployment
+
+**Tech Stack:**
+- Backend: Python 3.12, FastAPI, LangChain
+- Frontend: React 18, Nginx (multi-stage build)
+- LLM: Google Gemini API (free tier)
+- Vector Store: ChromaDB
+- Embeddings: BAAI/bge-small-en-v1.5 (local)
+- Orchestration: Docker Compose
+- Evaluation: SQLite logging with comprehensive metrics
+
+**Key Features:**
+✓ Single-command Docker deployment: `docker-compose up --build`
+✓ 5+ AI research documents (20+ pages) with security test document
+✓ Full-featured UI: Document upload, Q&A interface, evaluation log
+✓ Production-ready: Health checks, persistent storage, graceful error handling
+✓ Comprehensive documentation: README, ARCHITECTURE, DOCKER guide
+✓ Git history: Clean commits with implementation details
+
+**GitHub Repository:**
+https://github.com/Jyothirmai11-cmk/Dotmappers.git
+
+**Setup Instructions:**
+```bash
+git clone https://github.com/Jyothirmai11-cmk/Dotmappers.git
+cd Dotmappers
+docker-compose up --build
+```
+
+Then visit:
+- Frontend: http://localhost:3000
+- Backend API: http://localhost:8000/docs
+
+**Evaluation Highlights:**
+The system is designed to demonstrate:
+1. RAG expertise through hybrid search and reranking
+2. Security awareness via prompt injection defense
+3. Code quality with modular, well-documented architecture
+4. Production readiness with Docker containerization
+5. Evaluation rigor with comprehensive metrics and logging
+
+All requirements from Assessment B have been fulfilled:
+✓ Minimum 5 documents ingested
+✓ Hybrid retrieval with improvement (BM25 + semantic + reranking)
+✓ Evidence grounding with citations
+✓ Prompt injection defense demonstrated
+✓ 20-question evaluation dataset
+✓ Single-command deployment
+✓ Complete architecture diagram and documentation
+
+I look forward to the 45-minute architecture walkthrough call and am prepared to discuss design decisions, trade-offs, and potential production improvements.
+
+Thank you for considering my submission. I am excited about the opportunity to contribute to DotMappers' AI initiatives.
+
+Best regards,
+
+**Jyothirmai**
+muka.u@iicl.in
+(+91) [Your Phone Number - Optional]
+
+Submitted: September 21, 2026
+
+================================================================================
+ADDITIONAL NOTES
+================================================================================
+
+Before sending, please:
+
+1. Replace [Your Phone Number] with your actual contact number (optional)
+2. Update CC field if you want a copy sent to yourself
+3. Copy and paste the email body into your email client
+4. Ensure the git repository link is clickable in your email
+5. Send from your professional email address
+
+Estimated send time: Immediately after docker-compose confirms all services are running
+Expected response time: Within 48 hours (interview scheduling)
+
+================================================================================
