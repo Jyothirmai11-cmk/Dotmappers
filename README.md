@@ -43,6 +43,29 @@ Response + Metrics
 
 ## 🚀 Quick Start
 
+### Option A: Docker (Recommended)
+
+**Prerequisites:**
+- Docker & Docker Compose installed
+
+**One-command startup:**
+```bash
+docker-compose up --build
+```
+
+Then visit:
+- Frontend: http://localhost:3000
+- Backend API: http://localhost:8000/docs
+
+**To stop:**
+```bash
+docker-compose down
+```
+
+---
+
+### Option B: Local Development
+
 ### Prerequisites
 - Python 3.10+
 - Node.js 16+
